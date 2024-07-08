@@ -301,7 +301,8 @@ Main_2.Size = UDim2.new(0, 492, 0, 247)
 Main_2.ClearTextOnFocus = false
 Main_2.Font = Enum.Font.Highway
 Main_2.MultiLine = true
-Main_2.Text = "-- Neco-Ware [Version 1.0 Full Release]\\n-- (c) Neco-Ware ~ Script Execution Gui For Roblox. All rights reserved."
+Main_2.Text = "-- Neco-Ware [Version 1.0 Full Release] 
+-- (c) Neco-Ware ~ Script Execution Gui For Roblox. All rights reserved."
 Main_2.TextColor3 = Color3.fromRGB(0, 95, 5)
 Main_2.TextSize = 19.000
 Main_2.TextWrapped = true
