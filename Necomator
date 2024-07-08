@@ -77,7 +77,7 @@ local Startbro = Instance.new("TextButton")
 --Properties:
 
 NecomatorUIChange.Name = "NecomatorUIChange"
-NecomatorUIChange.Parent = game.Players.CoreGui
+NecomatorUIChange.Parent = game.CoreGui
 NecomatorUIChange.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 NecomatorUIChange.ResetOnSpawn = false
 
