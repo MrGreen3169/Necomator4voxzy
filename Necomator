@@ -88,7 +88,6 @@ Main.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
 Main.BorderColor3 = Color3.fromRGB(0, 95, 5)
 Main.Position = UDim2.new(0.287020147, 0, 0.321830273, 0)
 Main.Size = UDim2.new(0, 699, 0, 345)
-Main.Visible = false
 
 Panel.Name = "Panel"
 Panel.Parent = Main
@@ -301,8 +300,8 @@ Main_2.Size = UDim2.new(0, 492, 0, 247)
 Main_2.ClearTextOnFocus = false
 Main_2.Font = Enum.Font.Highway
 Main_2.MultiLine = true
-Main_2.Text = "-- Neco-Ware [Version 1.0 Full Release] 
--- (c) Neco-Ware ~ Script Execution Gui For Roblox. All rights reserved."
+Main_2.PlaceholderText = "-- Neco-Ware [Version 1.0 Full Release]                   .                   . -- (c) Neco-Ware ~ Script Execution Gui For Roblox. All rights reserved."
+Main_2.Text = ""
 Main_2.TextColor3 = Color3.fromRGB(0, 95, 5)
 Main_2.TextSize = 19.000
 Main_2.TextWrapped = true
@@ -757,6 +756,7 @@ Loading435234583.BackgroundColor3 = Color3.fromRGB(5, 5, 5)
 Loading435234583.BorderColor3 = Color3.fromRGB(0, 95, 5)
 Loading435234583.Position = UDim2.new(0.287020117, 0, 0.308287293, 0)
 Loading435234583.Size = UDim2.new(0, 698, 0, 344)
+Loading435234583.Visible = false
 
 Panel_2.Name = "Panel"
 Panel_2.Parent = Loading435234583
@@ -848,7 +848,7 @@ Copyright.TextXAlignment = Enum.TextXAlignment.Left
 
 -- Scripts:
 
-local function FECAUI_fake_script() -- SHButton.LocalScript 
+local function UVEVNN_fake_script() -- SHButton.LocalScript 
 	local script = Instance.new('LocalScript', SHButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -859,8 +859,8 @@ local function FECAUI_fake_script() -- SHButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(FECAUI_fake_script)()
-local function VKBSH_fake_script() -- HomeButton.LocalScript 
+coroutine.wrap(UVEVNN_fake_script)()
+local function LZRCF_fake_script() -- HomeButton.LocalScript 
 	local script = Instance.new('LocalScript', HomeButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -871,8 +871,8 @@ local function VKBSH_fake_script() -- HomeButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(VKBSH_fake_script)()
-local function NSGKWG_fake_script() -- ExecButton.LocalScript 
+coroutine.wrap(LZRCF_fake_script)()
+local function JYHWR_fake_script() -- ExecButton.LocalScript 
 	local script = Instance.new('LocalScript', ExecButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -883,8 +883,8 @@ local function NSGKWG_fake_script() -- ExecButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(NSGKWG_fake_script)()
-local function BJDY_fake_script() -- STButton.LocalScript 
+coroutine.wrap(JYHWR_fake_script)()
+local function EKJZT_fake_script() -- STButton.LocalScript 
 	local script = Instance.new('LocalScript', STButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -895,8 +895,8 @@ local function BJDY_fake_script() -- STButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(BJDY_fake_script)()
-local function BHVACO_fake_script() -- ImageButton.LocalScript 
+coroutine.wrap(EKJZT_fake_script)()
+local function IUVM_fake_script() -- ImageButton.LocalScript 
 	local script = Instance.new('LocalScript', ImageButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1150,8 +1150,8 @@ local function BHVACO_fake_script() -- ImageButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BHVACO_fake_script)()
-local function TAGRE_fake_script() -- Exec_2.LocalScript 
+coroutine.wrap(IUVM_fake_script)()
+local function NDVY_fake_script() -- Exec_2.LocalScript 
 	local script = Instance.new('LocalScript', Exec_2)
 
 	textbox = script.Parent.Parent.Main
@@ -1160,22 +1160,22 @@ local function TAGRE_fake_script() -- Exec_2.LocalScript
 		loadstring(textbox.Text)()
 	end)
 end
-coroutine.wrap(TAGRE_fake_script)()
-local function QENCCVU_fake_script() -- Clear.LocalScript 
+coroutine.wrap(NDVY_fake_script)()
+local function HFFTBGY_fake_script() -- Clear.LocalScript 
 	local script = Instance.new('LocalScript', Clear)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Main.Text = ""
 	end)
 end
-coroutine.wrap(QENCCVU_fake_script)()
-local function YVSKYA_fake_script() -- Main.DragScript 
+coroutine.wrap(HFFTBGY_fake_script)()
+local function OSGH_fake_script() -- Main.DragScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local a=game:GetService('UserInputService')local b=script.Parent;local c=nil;local d=0.25;local e=nil;local f=nil;local function g(a)local a=a.Position-e;local a=UDim2.new(f.X.Scale,f.X.Offset+a.X,f.Y.Scale,f.Y.Offset+a.Y)game:GetService('TweenService'):Create(b,TweenInfo.new(d),{Position=a}):Play()end;b.InputBegan:Connect(function(a)if(a.UserInputType==Enum.UserInputType.MouseButton1 or a.UserInputType==Enum.UserInputType.Touch)then c=true;e=a.Position;f=b.Position;a.Changed:Connect(function()if a.UserInputState==Enum.UserInputState.End then c=false end end)end end)a.InputChanged:Connect(function(a)if a.UserInputType==Enum.UserInputType.MouseMovement or a.UserInputType==Enum.UserInputType.Touch then if c then g(a)end end end)
 end
-coroutine.wrap(YVSKYA_fake_script)()
-local function YAZAND_fake_script() -- Main.OpenCloseScript 
+coroutine.wrap(OSGH_fake_script)()
+local function OOPH_fake_script() -- Main.OpenCloseScript 
 	local script = Instance.new('LocalScript', Main)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1188,8 +1188,8 @@ local function YAZAND_fake_script() -- Main.OpenCloseScript
 		end
 	end)
 end
-coroutine.wrap(YAZAND_fake_script)()
-local function DAUGZ_fake_script() -- AvaLogo.LocalScript 
+coroutine.wrap(OOPH_fake_script)()
+local function YEJJ_fake_script() -- AvaLogo.LocalScript 
 	local script = Instance.new('LocalScript', AvaLogo)
 
 	local Players = game:GetService("Players")
@@ -1197,38 +1197,38 @@ local function DAUGZ_fake_script() -- AvaLogo.LocalScript
 	local imagelabel = script.Parent
 	imagelabel.Image = Players:GetUserThumbnailAsync(player.UserId,Enum.ThumbnailType.AvatarBust,Enum.ThumbnailSize.Size100x100)
 end
-coroutine.wrap(DAUGZ_fake_script)()
-local function GAYM_fake_script() -- Greeting.LocalScript 
+coroutine.wrap(YEJJ_fake_script)()
+local function TKHVCY_fake_script() -- Greeting.LocalScript 
 	local script = Instance.new('LocalScript', Greeting)
 
 	local player = game.Players.LocalPlayer
 	
 	script.Parent.Text = "Welcome "..player.DisplayName.."!!"
 end
-coroutine.wrap(GAYM_fake_script)()
-local function KSGDDJ_fake_script() -- UserId.LocalScript 
+coroutine.wrap(TKHVCY_fake_script)()
+local function VTCVFQH_fake_script() -- UserId.LocalScript 
 	local script = Instance.new('LocalScript', UserId)
 
 	local player = game.Players.LocalPlayer
 	
 	script.Parent.Text = "UserId: "..game.Players.LocalPlayer.UserId
 end
-coroutine.wrap(KSGDDJ_fake_script)()
-local function FPOJBL_fake_script() -- AccountDate.LocalScript 
+coroutine.wrap(VTCVFQH_fake_script)()
+local function EUHRX_fake_script() -- AccountDate.LocalScript 
 	local script = Instance.new('LocalScript', AccountDate)
 
 	local player = game.Players.LocalPlayer 
 	
 	script.Parent.Text = player.AccountAge
 end
-coroutine.wrap(FPOJBL_fake_script)()
-local function LMLPJ_fake_script() -- Thankssign.LocalScript 
+coroutine.wrap(EUHRX_fake_script)()
+local function KCOY_fake_script() -- Thankssign.LocalScript 
 	local script = Instance.new('LocalScript', Thankssign)
 
 	script.Parent.Text = "Thank you for using Necomator, By NecoTeam"
 end
-coroutine.wrap(LMLPJ_fake_script)()
-local function OSAUAKW_fake_script() -- OS_Date.LocalScript 
+coroutine.wrap(KCOY_fake_script)()
+local function EXBGUBU_fake_script() -- OS_Date.LocalScript 
 	local script = Instance.new('LocalScript', OS_Date)
 
 	while true do
@@ -1237,16 +1237,16 @@ local function OSAUAKW_fake_script() -- OS_Date.LocalScript
 		script.Parent.Text = os.date()
 	end
 end
-coroutine.wrap(OSAUAKW_fake_script)()
-local function QLGU_fake_script() -- Dizzy.LocalScript 
+coroutine.wrap(EXBGUBU_fake_script)()
+local function YXOZR_fake_script() -- Dizzy.LocalScript 
 	local script = Instance.new('LocalScript', Dizzy)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard("https://discord.gg/XDvE5wGHaU")
 	end)
 end
-coroutine.wrap(QLGU_fake_script)()
-local function DUDKYG_fake_script() -- SpeedButton.LocalScript 
+coroutine.wrap(YXOZR_fake_script)()
+local function SUBOGG_fake_script() -- SpeedButton.LocalScript 
 	local script = Instance.new('LocalScript', SpeedButton)
 
 	local player = game.Players.LocalPlayer
@@ -1255,8 +1255,8 @@ local function DUDKYG_fake_script() -- SpeedButton.LocalScript
 		player.Character.Humanoid.WalkSpeed = script.Parent.Parent.SpeedBox.Text
 	end)
 end
-coroutine.wrap(DUDKYG_fake_script)()
-local function BRHFVF_fake_script() -- JumpButton.LocalScript 
+coroutine.wrap(SUBOGG_fake_script)()
+local function JXTTS_fake_script() -- JumpButton.LocalScript 
 	local script = Instance.new('LocalScript', JumpButton)
 
 	local player = game.Players.LocalPlayer
@@ -1265,8 +1265,8 @@ local function BRHFVF_fake_script() -- JumpButton.LocalScript
 		player.Character.Humanoid.JumpPower = script.Parent.Parent.JumpBox.Text
 	end)
 end
-coroutine.wrap(BRHFVF_fake_script)()
-local function VJSSAZ_fake_script() -- ESPButton.LocalScript 
+coroutine.wrap(JXTTS_fake_script)()
+local function APPQ_fake_script() -- ESPButton.LocalScript 
 	local script = Instance.new('LocalScript', ESPButton)
 
 	-- LocalScript inside the ESPButton
@@ -1333,8 +1333,8 @@ local function VJSSAZ_fake_script() -- ESPButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(VJSSAZ_fake_script)()
-local function SNLI_fake_script() -- Toggle.LocalScript 
+coroutine.wrap(APPQ_fake_script)()
+local function KEUF_fake_script() -- Toggle.LocalScript 
 	local script = Instance.new('LocalScript', Toggle)
 
 	_G.aimbot = false
@@ -1396,8 +1396,8 @@ local function SNLI_fake_script() -- Toggle.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SNLI_fake_script)()
-local function CWYGA_fake_script() -- NecoConsole.LocalScript 
+coroutine.wrap(KEUF_fake_script)()
+local function WMNXV_fake_script() -- NecoConsole.LocalScript 
 	local script = Instance.new('LocalScript', NecoConsole)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1523,9 +1523,9 @@ local function CWYGA_fake_script() -- NecoConsole.LocalScript
 		coroutine.wrap(MQJLY_fake_script)()
 	end)
 end
-coroutine.wrap(CWYGA_fake_script)()
+coroutine.wrap(WMNXV_fake_script)()
 -- Loading50284734.Script is disabled.
-local function JKRKID_fake_script() -- Loading50284734.LocalScript 
+local function ODURTC_fake_script() -- Loading50284734.LocalScript 
 	local script = Instance.new('LocalScript', Loading50284734)
 
 	wait(3)
@@ -1604,8 +1604,8 @@ local function JKRKID_fake_script() -- Loading50284734.LocalScript
 	end
 	
 end
-coroutine.wrap(JKRKID_fake_script)()
-local function HNRCS_fake_script() -- Startbro.LocalScript 
+coroutine.wrap(ODURTC_fake_script)()
+local function HVLGUDC_fake_script() -- Startbro.LocalScript 
 	local script = Instance.new('LocalScript', Startbro)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1669,10 +1669,10 @@ local function HNRCS_fake_script() -- Startbro.LocalScript
 		end
 	end)
 end
-coroutine.wrap(HNRCS_fake_script)()
-local function QUTHC_fake_script() -- Loading435234583.DragScript 
+coroutine.wrap(HVLGUDC_fake_script)()
+local function XWNZC_fake_script() -- Loading435234583.DragScript 
 	local script = Instance.new('LocalScript', Loading435234583)
 
 	local a=game:GetService('UserInputService')local b=script.Parent;local c=nil;local d=0.25;local e=nil;local f=nil;local function g(a)local a=a.Position-e;local a=UDim2.new(f.X.Scale,f.X.Offset+a.X,f.Y.Scale,f.Y.Offset+a.Y)game:GetService('TweenService'):Create(b,TweenInfo.new(d),{Position=a}):Play()end;b.InputBegan:Connect(function(a)if(a.UserInputType==Enum.UserInputType.MouseButton1 or a.UserInputType==Enum.UserInputType.Touch)then c=true;e=a.Position;f=b.Position;a.Changed:Connect(function()if a.UserInputState==Enum.UserInputState.End then c=false end end)end end)a.InputChanged:Connect(function(a)if a.UserInputType==Enum.UserInputType.MouseMovement or a.UserInputType==Enum.UserInputType.Touch then if c then g(a)end end end)
 end
-coroutine.wrap(QUTHC_fake_script)()
+coroutine.wrap(XWNZC_fake_script)()
